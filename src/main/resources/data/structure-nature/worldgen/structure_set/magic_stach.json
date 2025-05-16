@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "structure-nature:magic_stach",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642136474,
+
+    "spacing": 2200,
+
+    "separation": 1800,
+
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "structure-nature:magic_gem"
+    },
+    "title": "the dimension is here",
+    "description": "you are in the magic dimension",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "structure-nature:magic_shard",
+  "criteria": {
+    "magic dim": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "structure-nature:magic_dim"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

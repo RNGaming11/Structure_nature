@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "structure-nature:magic_shard"
+    },
+    "title": "what is this?",
+    "description": "you have the magic shard",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "structure-nature:structure-nature",
+  "criteria": {
+    "magic_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "structure-nature:magic_shard"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "structure-nature:magic_block",
+      "structure-nature:magic_shard",
+      "structure-nature:magic_gem_from_blasting_magic_gem",
+      "structure-nature:magic_gem_from_blasting_magic_shard",
+      "structure-nature:magic_sword"
+    ],
+    "experience": 100
+  }
+}

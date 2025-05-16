@@ -1,0 +1,10 @@
+{
+  "item.structure-nature.magic_shard": "Magic Shard",
+  "item.structure-nature.magic_sword": "Magic Sword",
+  "item.structure-nature.magic_gem": "Magic Gem",
+
+  "block.structure-nature.magic_block": "Magic block",
+
+  "itemgroup.structure": "Structure Nature Group",
+  "resourcePack.structure-nature.StructureNature.name": "StructureNature"
+}

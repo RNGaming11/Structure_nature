@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.rngaming.structure.nature.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExampleMixin",
+    "StructurePoolAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

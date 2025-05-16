@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "structure-nature:magic_shard"
+    },
+    "title": "Structure Nature",
+    "description": "you have the world in your power",
+    "background": "structure-nature:textures/block/magic_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "structure nature": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "structure-nature:magic_shard"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

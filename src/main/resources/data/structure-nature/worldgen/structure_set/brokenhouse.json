@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "structure-nature:brokenhouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642136473,
+
+    "spacing": 1006,
+
+    "separation": 900,
+
+    "type": "minecraft:random_spread"
+  }
+}

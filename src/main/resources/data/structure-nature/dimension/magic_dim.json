@@ -1,0 +1,36 @@
+{
+  "type": "structure-nature:magic_dim_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "structure-nature:magic_dim",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "structure-nature:magic_land",
+          "parameters": {
+            "temperature": -2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 2,
+            "depth": 0,
+            "offset": 1
+          }
+        },
+        {
+          "biome": "structure-nature:magic_fields",
+          "parameters": {
+            "temperature": 2,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 1,
+            "depth": 0,
+            "offset": 1
+        }
+        }
+      ]
+    }
+  }
+}

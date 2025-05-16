@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "structure-nature:magic_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "structure-nature:magic_shard"
+  }
+}

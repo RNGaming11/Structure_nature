@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 20000,
+  "experience": 82.0,
+  "group": "magic",
+  "ingredient": {
+    "item": "structure-nature:magic_gem"
+  },
+  "result": {
+    "id": "structure-nature:magic_gem"
+  }
+}

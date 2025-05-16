@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "structure-nature",
+	"version": "1.1.6",
+	"name": "Structure Nature",
+	"description": "a new structure to minecraft credits for mods were using simple lib for config",
+	"authors": [
+		"RNGaming"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/structure-nature"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/structure-nature/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rngaming.structure.nature.StructureNature"
+		],
+		"client": [
+			"net.rngaming.structure.nature.StructureNatureClient"
+		],
+		"fabric-datagen": [
+			"net.rngaming.structure.nature.StructureNatureDataGenerator"
+		]
+	},
+	"mixins": [
+		"structure-nature.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

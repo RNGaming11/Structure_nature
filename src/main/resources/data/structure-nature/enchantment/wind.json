@@ -1,0 +1,66 @@
+{
+  "description": "Wind",
+"supported_items": "structure-nature:magic_sword",
+"weight": 1,
+"max_level": 5,
+"min_cost": {
+"base": 15,
+"per_level_above_first": 9
+},
+"max_cost": {
+"base": 65,
+"per_level_above_first": 9
+},
+"anvil_cost": 236,
+"slots": [
+"mainhand"
+],
+"effects": {
+"minecraft:post_attack": [
+{
+"enchanted": "attacker",
+"affected": "attacker",
+"effect": {
+"type": "minecraft:explode",
+"radius": 4.4,
+"block_interaction": "trigger",
+"small_particle": {
+"type": "minecraft:gust_emitter_small"
+},
+"large_particle": {
+"type": "minecraft:gust_emitter_large"
+},
+"sound": "minecraft:entity.wind_charge.wind_burst",
+"immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+"knockback_multiplier": {
+"type": "minecraft:lookup",
+"values": [
+1.4,
+1.75,
+2.2
+],
+"fallback": {
+"type": "minecraft:linear",
+"base": 1.5,
+"per_level_above_first": 0.38
+}
+}
+},
+"requirements": {
+"condition": "minecraft:entity_properties",
+"entity": "direct_attacker",
+"predicate": {
+"movement": {
+"fall_distance": {
+"min": 1.4
+}
+},
+"flags": {
+"is_flying": false
+}
+}
+}
+}
+]
+}
+}
