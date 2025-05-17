@@ -19,9 +19,6 @@
 		],
 		"client": [
 			"net.rngaming.structure.nature.StructureNatureClient"
-		],
-		"fabric-datagen": [
-			"net.rngaming.structure.nature.StructureNatureDataGenerator"
 		]
 	},
 	"mixins": [

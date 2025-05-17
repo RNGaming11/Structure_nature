@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    MAGIC(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 3500, 10.0F, 35.0F, 18, () -> Ingredient.ofItems(ModItems.MAGIC_SWORD));
+    MAGIC(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 3000, 10.0F, 10.0F, 18, () -> Ingredient.ofItems(ModItems.MAGIC_SWORD));
 
     private final int itemDurability;
     private final TagKey<Block> inverseTag;

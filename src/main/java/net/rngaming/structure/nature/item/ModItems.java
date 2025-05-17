@@ -8,7 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.rngaming.structure.nature.StructureNature;
-import net.rngaming.structure.nature.blocks.ModBlocks;
+
 
 public class ModItems {
     public static final Item MAGIC_SHARD = registerItem("magic_shard",
@@ -24,7 +24,7 @@ public class ModItems {
 
     public static final Item MAGIC_SWORD = registerItem("magic_sword",
             new SwordItem(ModToolMaterials.MAGIC, new Item.Settings().rarity(Rarity.EPIC).fireproof().attributeModifiers(SwordItem.createAttributeModifiers(
-                    ModToolMaterials.MAGIC, 30, -3.5F
+                    ModToolMaterials.MAGIC, 15, -3.2F
             ))));
 
 
