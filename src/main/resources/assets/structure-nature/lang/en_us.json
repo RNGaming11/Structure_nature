@@ -3,7 +3,8 @@
   "item.structure-nature.magic_sword": "Magic Sword",
   "item.structure-nature.magic_gem": "Magic Gem",
 
-  "block.structure-nature.magic_block": "Magic block",
+  "block.structure-nature.magic_block": "Magic Block",
+  "block.structure-nature.magic_stone": "Magic Stone",
 
   "itemgroup.structure": "Structure Nature"
 }

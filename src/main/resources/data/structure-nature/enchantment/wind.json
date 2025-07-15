@@ -1,31 +1,31 @@
 {
   "description": "Wind",
-"supported_items": "structure-nature:magic_sword",
-"weight": 1,
-"max_level": 5,
-"min_cost": {
-"base": 15,
-"per_level_above_first": 9
+  "supported_items": "structure-nature:magic_sword",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+  "base": 15,
+  "per_level_above_first": 9
+  },
+  "max_cost": {
+  "base": 65,
+  "per_level_above_first": 9
 },
-"max_cost": {
-"base": 65,
-"per_level_above_first": 9
-},
-"anvil_cost": 236,
-"slots": [
+  "anvil_cost": 236,
+  "slots": [
 "mainhand"
 ],
-"effects": {
-"minecraft:post_attack": [
+  "effects": {
+  "minecraft:post_attack": [
 {
-"enchanted": "attacker",
-"affected": "attacker",
-"effect": {
-"type": "minecraft:explode",
-"radius": 4.4,
-"block_interaction": "trigger",
-"small_particle": {
-"type": "minecraft:gust_emitter_small"
+  "enchanted": "attacker",
+  "affected": "attacker",
+  "effect": {
+  "type": "minecraft:explode",
+  "radius": 4.3,
+  "block_interaction": "trigger",
+  "small_particle": {
+  "type": "minecraft:gust_emitter_small"
 },
 "large_particle": {
 "type": "minecraft:gust_emitter_large"

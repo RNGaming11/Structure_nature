@@ -3,8 +3,8 @@
     "icon": {
       "id": "structure-nature:magic_gem"
     },
-    "title": "the dimension is here",
-    "description": "you are in the magic dimension",
+    "title": "the gems are yours",
+    "description": "you have the magic gem",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
@@ -16,13 +16,13 @@
       "conditions": {
         "player": {
           "location": {
-            "dimension": "structure-nature:magic_dim"
+            "items": "structure-nature:magic_gem"
           }
         }
       }
     }
   },
   "rewards": {
-    "experience": 100
+    "experience": 140
   }
 }

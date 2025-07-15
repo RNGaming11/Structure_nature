@@ -22,7 +22,7 @@
         {
           "type": "minecraft:item",
           "name": "structure-nature:magic_shard",
-          "weight": 2
+          "weight": 0.01
         },
         {
           "type": "minecraft:item",

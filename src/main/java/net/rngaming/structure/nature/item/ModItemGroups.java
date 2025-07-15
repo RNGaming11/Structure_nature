@@ -1,6 +1,5 @@
 package net.rngaming.structure.nature.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.EnchantedBookItem;
 import net.rngaming.structure.nature.StructureNature;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -23,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGIC_SWORD);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
+
+                        entries.add(ModBlocks.MAGIC_STONE);
 
 
                     }).build());

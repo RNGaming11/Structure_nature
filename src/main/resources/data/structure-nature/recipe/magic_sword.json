@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "X": {
-      "item": "structure-nature:magic_shard"
-    }
+    "#": "minecraft:stick",
+    "X": "structure-nature:magic_shard"
   },
   "pattern": [
     "X",

@@ -1,11 +1,13 @@
 {
 	"schemaVersion": 1,
 	"id": "structure-nature",
-	"version": "1.1.6",
+	"version": "1.1.8",
 	"name": "Structure Nature",
-	"description": "a new structure to minecraft credits for mods were using simple lib for config",
+	"description": "a new structure to minecraft",
 	"authors": [
-		"RNGaming"
+		"RNGaming(Owner)",
+		"sammmmy16281(textures/models)",
+		"Lxlennox_dev(worldgen code)"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/structure-nature"
@@ -26,7 +28,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21",
+		"minecraft": "~1.21.5",
 		"java": ">=21",
 		"fabric-api": "*"
 	},

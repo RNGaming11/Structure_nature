@@ -42,7 +42,7 @@ public class StructureNature implements ModInitializer {
 	private void registerPortalIfNeeded() {
 		Identifier portalId = Identifier.of(MOD_ID, "magic_dim");
 			CustomPortalBuilder.beginPortal()
-					.frameBlock(ModBlocks.MAGIC_BLOCK)
+					.frameBlock(ModBlocks.MAGIC_STONE)
 					.lightWithItem(ModItems.MAGIC_GEM)
 					.destDimID(portalId)
 					.registerPortal();
