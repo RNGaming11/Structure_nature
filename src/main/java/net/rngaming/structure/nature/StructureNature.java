@@ -15,37 +15,35 @@ public class StructureNature implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// Log mod initialization
-		LOGGER.info("Initializing Structure Nature Mod");
+		LOGGER.info("Loading Structure nature Mod");
 
-		// Register item groups
-		LOGGER.info("Registering item groups...");
+		LOGGER.info("Registering item groups");
 		ModItemGroups.registerItemGroups();
-		LOGGER.info("Item groups registered.");
+		LOGGER.info("Item groups registered");
 
-		// Register items
-		LOGGER.info("Registering mod items...");
+		LOGGER.info("Registering mod items");
 		ModItems.registerModItems();
-		LOGGER.info("Mod items registered.");
+		LOGGER.info("Mod items registered");
 
-		// Register blocks
-		LOGGER.info("Registering mod blocks...");
+		LOGGER.info("Registering mod blocks");
 		ModBlocks.registerModBlocks();
-		LOGGER.info("Mod blocks registered.");
+		LOGGER.info("Mod blocks registered");
 
+		registerMagicPortal();
+
+		LOGGER.info("Applying Loaded Structure nature data");
 		StructureNatureClient.registerPlayerClient();
-
-		// Register portal
-		registerPortalIfNeeded();
+		LOGGER.info("Loaded Structure nature");
 	}
 
-	private void registerPortalIfNeeded() {
+	private void registerMagicPortal() {
+		LOGGER.info("Registring Magic Portal");
 		Identifier portalId = Identifier.of(MOD_ID, "magic_dim");
 			CustomPortalBuilder.beginPortal()
 					.frameBlock(ModBlocks.MAGIC_STONE)
 					.lightWithItem(ModItems.MAGIC_GEM)
 					.destDimID(portalId)
 					.registerPortal();
-			LOGGER.info("Portal registered successfully.");
+			LOGGER.info("Magic Portal registered successfully");
 		}
 	}

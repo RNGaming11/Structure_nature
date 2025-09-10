@@ -7,7 +7,8 @@
     "description": "you have the magic shard",
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "structure-nature:structure-nature",
   "criteria": {
@@ -26,8 +27,6 @@
     "recipes": [
       "structure-nature:magic_block",
       "structure-nature:magic_shard",
-      "structure-nature:magic_gem_from_blasting_magic_gem",
-      "structure-nature:magic_gem_from_blasting_magic_shard",
       "structure-nature:magic_sword"
     ],
     "experience": 100

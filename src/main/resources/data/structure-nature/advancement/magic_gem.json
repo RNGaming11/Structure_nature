@@ -7,18 +7,19 @@
     "description": "you have the magic gem",
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "structure-nature:magic_shard",
   "criteria": {
-    "magic dim": {
-      "trigger": "minecraft:location",
+    "magic_gem": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": {
-          "location": {
+        "items": [
+          {
             "items": "structure-nature:magic_gem"
           }
-        }
+        ]
       }
     }
   },

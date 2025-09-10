@@ -1,18 +1,19 @@
 {
 	"schemaVersion": 1,
 	"id": "structure-nature",
-	"version": "1.1.8",
+	"version": "1.2",
 	"name": "Structure Nature",
 	"description": "a new structure to minecraft",
 	"authors": [
 		"RNGaming(Owner)",
-		"sammmmy16281(textures/models)",
-		"Lxlennox_dev(worldgen code)"
+		"sammmmy16281(textures0",
+		"Lxlennox_dev(worldgen code)",
+		"EthanTianYu (models)"
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/structure-nature"
 	},
-	"license": "All Rights Reserved",
+	"license": "MIT",
 	"icon": "assets/structure-nature/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -27,8 +28,8 @@
 		"structure-nature.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.5",
+		"fabricloader": ">=0.17.2",
+		"minecraft": ">=1.21.7",
 		"java": ">=21",
 		"fabric-api": "*"
 	},

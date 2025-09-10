@@ -2,14 +2,14 @@
   "description": "Damage",
   "supported_items": "structure-nature:magic_sword",
   "slots": ["mainhand"],
-  "weight": 5,
+  "weight": 4,
   "max_level": 6,
   "min_cost": {
-    "base": 60,
+    "base": 65,
     "per_level_above_first": 15
   },
   "max_cost": {
-    "base": 70,
+    "base": 75,
     "per_level_above_first": 20
   },
   "anvil_cost": 300,

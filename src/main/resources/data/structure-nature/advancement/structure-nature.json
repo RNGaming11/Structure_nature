@@ -5,13 +5,13 @@
     },
     "title": "Structure Nature",
     "description": "you have the world in your power",
-    "background": "structure-nature:textures/block/magic_stone.png",
+    "background": "structure-nature:block/magic_stone",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false
   },
   "criteria": {
-    "structure nature": {
+    "structure_nature": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
